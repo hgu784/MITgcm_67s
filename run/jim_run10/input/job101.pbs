@@ -1,0 +1,17 @@
+#!/bin/sh
+#------ pjsub option --------#
+#PJM -L rscgrp=regular-a
+#PJM -L node=1
+#PJM --mpi proc=10
+#PJM --omp thread=4
+#PJM -L elapse=24:00:00
+#PJM -g gr18
+#PJM -j
+#------- Program execution -------#
+module unload aquarius
+module unload gcc
+module load intel
+module load impi
+cd /work/gr18/n32004/MITgcm/run/jim_run10/run/
+mpiexec.hydra -n ${PJM_MPI_PROC} ./mitgcmuv
+

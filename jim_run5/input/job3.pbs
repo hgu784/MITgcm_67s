@@ -1,0 +1,13 @@
+#!/bin/sh
+#------ pjsub option --------#
+#PJM -L rscgrp=regular-cache 
+#PJM -L node=1
+#PJM --mpi proc=10
+#PJM --omp thread=4
+#PJM -L elapse=48:00:00
+#PJM -g gn32
+#PJM -j
+#------- Program execution -------#
+export I_MPI_HBW_POLICY=hbw_preferred
+cd /work/gn32/n32004/MITgcm/run/jim_run3/run/
+mpiexec.hydra -n ${PJM_MPI_PROC} -genv I_MPI_DEBUG=5 ./mitgcmuv

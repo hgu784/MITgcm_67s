@@ -18,6 +18,10 @@ pig : jim's setup, 'STREAMICEthickFile' and 'bathyFile' change pig data
               SHELFICESubglFluxFile = 'subglflux.box',
  flux divergence : SHELFICEMassDynTendFile = 'massdyntend1.bin',
 
+melt : ice only, change meltrate in data.obcs
+
+pig_exf : exf & cal & obcs turn on
+
 
 
 %How to make initial

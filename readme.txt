@@ -22,6 +22,8 @@ melt : ice only, change meltrate in data.obcs
 
 pig_exf : exf & cal & obcs turn on
 
+seasonal : seasonal change 
+
 
 
 %How to make initial

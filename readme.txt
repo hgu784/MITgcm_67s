@@ -1,4 +1,4 @@
-jim_run7 : create initial shape using ice only model
+initial : create initial shape using ice only model
  
 run : spin up 60year using coupled model
  jim_run3 : CTRL

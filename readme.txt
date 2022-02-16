@@ -4,6 +4,8 @@ run : spin up 60year
  jim_run9 : change groundinig line (~/Figure/Fig.2)
  jim_run10 : change groundinig line (~/Figure/Fig.3)
  jim_run11 : change groundinig line (~/Figure/Fig.4)
+ 
+ jim_run7 : create initial shape
 
 run2 : sensitive experiments after spin up
  jim_run3 : CTRL 1 km

@@ -1,13 +1,15 @@
-run : spin up 60year
+jim_run7 : create initial shape using ice only model
+ 
+run : spin up 60year using coupled model
  jim_run3 : CTRL
  jim_run8 : change groundinig line (~/Figure/Fig.1)
  jim_run9 : change groundinig line (~/Figure/Fig.2)
  jim_run10 : change groundinig line (~/Figure/Fig.3)
  jim_run11 : change groundinig line (~/Figure/Fig.4)
  
- jim_run7 : create initial shape
 
-run2 : sensitive experiments after spin up
+
+run2 : sensitive experiments after spin up using coupled model
  jim_run3 : CTRL 1 km
  jim_run5 : CTRL 500 m
  jim_run6 : CTRL 250 m

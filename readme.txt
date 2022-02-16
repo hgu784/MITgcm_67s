@@ -43,7 +43,7 @@ seasonal : seasonaly change
 %How to build and run
 
  mkdir build
- cd build
+ cd build/
  module load intel/2021.2.0
  module load impi/2021.2.0
  export LANG=en_US.UTF-8
@@ -54,8 +54,8 @@ seasonal : seasonaly change
  export LC_ALL=en_US.utf8
  make -j 16
 
- mkdir run
- cd run
+ mkdir ../run
+ cd ../run/
  cp ../build/mitgcmuv .
  cp ../input/* .
  pjsub job*.pbs

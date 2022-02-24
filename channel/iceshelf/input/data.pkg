@@ -1,0 +1,12 @@
+# Packages
+ &PACKAGES
+#useKPP=.true.,
+ useOBCS=.true.,
+ useMNC=.FALSE.,
+# useEXF=.true.,
+# useCAL=.true.,
+ useShelfIce=.true.,
+ useStreamIce=.true.,
+#useSEAICE=.true.,
+ useDiagnostics = .true.,
+ &

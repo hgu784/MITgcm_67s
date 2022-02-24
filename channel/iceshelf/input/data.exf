@@ -1,0 +1,39 @@
+# *********************
+# External Forcing Data
+# *********************
+#
+&EXF_NML_OBCS
+ obcsNstartdate1   = 20091216,
+ obcsNstartdate2   = 000000,
+ obcsNperiod       = 2592000.0,
+#
+ obcsSstartdate1   = 20091216,
+ obcsSstartdate2   = 000000,
+ obcsSperiod       = 2592000.0,
+#
+ obcsEstartdate1   = 20091231,
+ obcsEstartdate2   = 000000,
+ obcsEperiod       = 2592000.0,
+#
+ obcsWstartdate1   = 20091216,
+ obcsWstartdate2   = 000000,
+ obcsWperiod       = 2592000.0,
+#
+#
+ siobNstartdate1   = 20091216,
+ siobNstartdate2   = 000000,
+ siobNperiod       = 2592000.0,
+#
+ siobSstartdate1   = 20091216,
+ siobSstartdate2   = 000000,
+ siobSperiod       = 2592000.0,
+#
+ siobEstartdate1   = 20091216,
+ siobEstartdate2   = 000000,
+ siobEperiod       = 2592000.0,
+#
+ siobWstartdate1   = 20091216,
+ siobWstartdate2   = 000000,
+ siobWperiod       = 2592000.0,
+#
+ &

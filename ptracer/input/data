@@ -83,7 +83,7 @@
  usingSphericalPolarGrid=.TRUE.,
  delR=55*20.,
  delX=60*.03125,
- delY=160*.0078125,
+ delY=100*.0078125,
 # delYFile='dlat.bin',
 # delY=30*10e3,
  xgOrigin = -105.5,

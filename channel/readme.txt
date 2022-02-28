@@ -51,10 +51,10 @@
 
 ##How to run iceshelf model(in local machine)##
 
-
-% please download input file from Google Drive.
-
  cd iceshelf/
+
+ %  please download INPUT FILE from Google Drive.
+ 
  mkdir build
  cd build/
  ../../../../tools/genmake2 -mods ../code -optfile ../../../../tools/build_options/linux_amd64_gfortran

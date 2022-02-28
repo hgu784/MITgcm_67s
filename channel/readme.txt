@@ -51,6 +51,9 @@
 
 ##How to run iceshelf model(in local machine)##
 
+
+% please download input file from Google Drive.
+
  cd iceshelf/
  mkdir build
  cd build/

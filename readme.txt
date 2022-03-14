@@ -23,6 +23,8 @@ pig : jim's setup, 'STREAMICEthickFile' and 'bathyFile' change pig data
  flux divergence : SHELFICEMassDynTendFile = 'massdyntend1.bin',
 
 melt : ice only, change meltrate in data.obcs
+melt2 : M( changiing ) V(dyn) U(0)
+melt3 : M( changing ) V( changing ) U(0)
 
 pig_exf : exf & cal & obcs turn on
 

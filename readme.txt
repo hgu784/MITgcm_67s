@@ -30,6 +30,7 @@ pig_exf : exf & cal & obcs turn on
 
 seasonal : seasonaly change 
 
+ptacer : tracer experiment
 
 
 %How to make initial

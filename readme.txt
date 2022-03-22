@@ -22,7 +22,7 @@ pig : jim's setup, 'STREAMICEthickFile' and 'bathyFile' change pig data
               SHELFICESubglFluxFile = 'subglflux.box',
  flux divergence : SHELFICEMassDynTendFile = 'massdyntend1.bin',
 
-melt : ice only, change meltrate in data.obcs
+melt : ice only,  use melt rate of CTRL , change data.obcs & data.streamice
 melt2 : M( changiing ) V(dyn) U(0)
 melt3 : M( changing ) V( changing ) U(0)
 
